@@ -1,0 +1,151 @@
+body{
+   
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+hr{
+    width: 95%;
+   margin:0% 0% 5% 0%;
+}
+header{
+    height:100vh;
+    min-height:200px;
+    background-size:cover;
+    background-image:url('backgrd.png');
+   
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main{
+    position: relative;
+    top: 50%;
+    left: 30%;
+    width: 50%;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 1.5rem;
+   
+  
+}
+
+.main-head{
+    text-align: center;
+    font-size: 4rem;
+    border-bottom: 1px solid white;
+    color:white;  
+   
+}
+.main-sub{
+    color:white;   
+}
+.profile{
+    height: 700px;
+    background-color: #F9F9F9;
+    padding: 50px 20px;
+   
+}
+.info-cont{
+    margin: 0% 15% 0% 15%;
+    font-weight: 400;
+    line-height: 1.7;
+  
+}
+.info-head{
+    text-align: center; 
+    font-size: 1.3rem;
+    
+}
+ .skill{
+    padding: 20px 0px 60px 0px;
+} 
+.profile-img{
+    width: 275px;
+    height: 275px;
+    border-radius: 100%;
+    border: 10px solid rgb(231, 225, 225);
+
+}
+p{
+    color: black;
+    font-size: 1.2rem;
+}
+.intro{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+h1,h2,h3{
+    color: #3ecaa9;
+}
+
+.experience{
+    height:700px;
+    background-color:#fae9e9 ;
+   padding-top: 4%;
+
+   
+}
+
+.icon{
+    color:gold;
+}
+
+
+.container{
+    margin: 0% 12% 0% 10%;
+  
+}
+.fa-star{
+    color: #3ecaa9;
+    padding: 0px 1px;
+    font-size: large;
+}
+.ability-score{
+    float: right;
+}
+
+
+li:hover,li .ability-score:hover{
+    background-color: rgb(224, 222, 222);
+    padding: 0px 10px;
+  
+}
+
+.project{
+    background-color: #fae9e9 ;
+    height:1000px;
+    padding: 20px 0px 60px 0px;
+
+}
+.project-image{
+    text-align: left;
+    padding: 1% 3% 2% 7%;
+
+}
+
+.project1,.project2{
+    width: 80%;
+    height: 80%;
+    margin-bottom:4% ;
+}
+.project1:hover,.project2:hover{
+    width: 83%;
+    height: 83%;
+    /* margin-bottom:4% ; */
+    opacity: 40;
+}
+
+
+.contact{
+    background-color: rgb(66, 64, 64);
+    height: 500px;
+   padding: 5% 2% 5% 2%;
+}
+.footer-content{
+    color: white;
+   
+}
+.nav-link{
+    padding-left: 20%;
+}
